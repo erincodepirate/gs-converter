@@ -1,0 +1,30 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    AppController = {
+	Actions = (
+	    "showPrefPanel:"
+	);
+	Outlets = (
+	);
+	Super = NSObject;
+    };
+    ConverterManager = {
+	Actions = (
+	    "convert:"
+	);
+	Outlets = (
+	    amount,
+	    rate,
+	    result
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "convert:",
+	    "orderFrontFontPanel:",
+	    "showPrefPanel:"
+	);
+	Super = NSObject;
+    };
+}
